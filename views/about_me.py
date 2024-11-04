@@ -167,7 +167,7 @@ st.write("\n")
 rows = [st.columns(3) for _ in range(3)]
 
 # First Row
-create_project_tile(rows[0][0], "assets/tts.png", "Transformer based TTS System", 
+create_project_tile(rows[0][0], "assets/TTS.png", "Transformer based TTS System", 
     """Developed a Transformer-based Text-to-Speech (TTS) model with the LJSpeech dataset, improving speech quality and performance using the SpeechBrain framework. Accelerated training using CUDA, cuDNN, and GPU optimizations, achieving 2.5x faster speeds than Tacotron2. Experience in distributed training and optimization of language models to solve resource allocation to enhance model efficiency. Applied scaled positional encodings and teacher forcing, reducing Mel Error to 8.27e-02 and lowering Stop Error by 10%. Enhanced efficiency with dynamic batching and Noam Scheduler for more natural and fluid speech synthesis. """)
 
 create_project_tile(rows[0][1], "assets/ds.jpg", "Dialogue Summarization: Fine Tuning LLM using Prompt Engineering and PEFT", 
