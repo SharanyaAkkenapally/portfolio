@@ -173,14 +173,15 @@ create_project_tile(rows[0][0], "assets/TTS.png", "Transformer based TTS System"
 create_project_tile(rows[0][1], "assets/ds.jpg", "Dialogue Summarization: Fine Tuning LLM using Prompt Engineering and PEFT", 
     """I Explored and Fine-tuned FLAN-T5 Language Model from Hugging Face for  dialogue summarization using prompt engineering and zero/few-shot learning to improve adaptability for LLM-based solution. Applied PEFT (LoRA), updating just 2-12% of parameters, reducing model size for fine-tuning and optimizing the LLM. Improved ROUGE-1 by 17.47% and ROUGE-2 by 8.73% over human baseline summaries, ensuring efficient compression and accuracy. """)
 
-create_project_tile(rows[0][2], "assets/retail-and-consumer-goods-mobile.gif", "Automated Retail Product Classification using CNN", 
+create_project_tile(rows[0][2], "assets/retail-and-consumer-goods-mobile.gif", "Automated Retail Product Classification using CNN",
     """I Designed CNN architectures (ResNet-18, GoogleNet, AlexNet) to classify grocery products, addressing class imbalance with weighting and oversampling. Performed data augmentation, model scaling and utilized grid search for hyperparameter optimization, fine-tuning learning rates, batch sizes, and dropout rates with focus on complexity analysis and enhancing performance metrics. Leveraged transfer learning by fine-tuning ResNet-18 with pre-trained ImageNet weights, resulting in an 8% increase in classification accuracy.""")
 
 # Second Row
 create_project_tile(rows[1][0], "assets/Image.jpg", "A Diagnostic Assistant for Post-Covid Skin Allergies",
     """I Led research on the predictive modeling of post-Covid skin allergies using image processing, focusing on forecasting disease severity. Employed a combination of ensemble methods with Neural Networks, including Gradient Boosting, AdaBoost, and XGBoost, to improve model accuracy and robustness. Achieved 89% classification accuracy, with XGBoost outperforming other models, offering a more reliable assessment of disease severity, thus significantly improving the model's and predictive capabilities.""")
 
-
+create_project_tile(rows[1][1], "assets/taxi.jpeg", "Taxi Demand Prediction",
+    """Conducted extensive Exploratory Data Analysis (EDA) and feature engineering to extract critical time-based features (hour, day, month) and created advanced interaction terms (e.g., precipitation during rush hours) and lagged demand variables, enhancing the model’s ability to capture temporal patterns and external impacts on taxi demand. Developed and optimized an ensemble model combining XGBoost, LightGBM, and Random Forest regressors to improve accuracy and robustness in predicting hourly taxi demand, leveraging GridSearchCV for hyperparameter tuning to refine model performance. Implemented time series forecasting for weather data using lagged features and seasonal adjustments to accurately predict temperature and precipitation; integrated weather forecasts into demand prediction to account for environmental factors in real-time demand fluctuations.""")
 
 st.write("\n")
 
