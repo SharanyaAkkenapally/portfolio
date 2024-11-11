@@ -203,7 +203,7 @@ st.write("""
 
 
 # Extra-Curricular Activities
-st.subheader("Activities and Societies 🌐🤝", anchor=False)
+st.subheader("Activities and Societies 🤝", anchor=False)
 st.markdown("""
     <hr style="margin-top: 1px; margin-bottom: 10px; border: 1px solid #ccc;">
 """, unsafe_allow_html=True)
